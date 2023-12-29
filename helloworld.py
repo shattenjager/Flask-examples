@@ -3,10 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, TryHackMe!'
+    return 'Orcodio!!'
 
-
-
-
-
-
+@app.route('/admin')
+def hello_world():
+    return 'Admin page'
